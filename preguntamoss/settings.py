@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', #'django.db.backends.sqlite3',
         'NAME': 'dbpreguntamoss',#os.path.join(BASE_DIR, 'db.sqlite3'),
         'USER': 'root',
-        'PASSWORD': '1234',
+        'PASSWORD': 'Jevousaime85*',
     }
 }
 
@@ -126,7 +126,8 @@ TIME_ZONE = 'America/Bogota'#'UTC'
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+#STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static') 
 
 #esto ultimo lo agregue YO
 MEDIA_URL = "/media/"
