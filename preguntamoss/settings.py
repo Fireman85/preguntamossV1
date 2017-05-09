@@ -25,7 +25,7 @@ SECRET_KEY = 'seltvn)r==-(zuwd#=irv!n4%yy%#bc-n%_y*gg706qf52ma#*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fireman85.pythonanywhere.com']
 
 
 # Application definition
